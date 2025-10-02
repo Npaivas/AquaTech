@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+/* HEADER INICIO */
+.header{
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3b062;
+    width: 400px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    
+}
+
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.agora a{
+    color: white;
+    font-weight: bold;
+}
+
+.titulo{
+    color: #32b9cd;
+}
+
+/* HEADER FIM */
+
+/* BANNER  */
+
+.banner{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: 90vh;
+
+}
+
+.banner .container{
+    display: flex;
+    width: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container p {
+    color: white;
+    width: 150px;
+    font-size: 25px;
+}
+
+.banner .container span{
+    font-weight: bold;
+}
+/* BANNER FIM */
+
+/* SOCIAL INICIO */
+
+.social{
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+}
+
+.social .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.boxes{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    flex-direction: column;
+}
+
+.box img{
+    height: 50%;
+    width: 50%;
+}
+
+.box h4{
+    color: blueviolet;
+}
+/* SOCIAL FIM  */
+
+/* FOOTER INICIO */
+
+.footer{
+    background-color: #32b9cd;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+/* cadastro estilo */
+.card{
+    background: rgb(227, 227, 227);
+    border-radius: 20px;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card h2{
+    color: rgb(123, 37, 37);
+}
+
+.card button{
+    background-color: rgb(116, 20, 20);
+    color: white;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+}
+.formulario{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.campo{
+    width: 100%;
+}
+
+.campo span{
+    color: rgb(95, 18, 18);
+}
+
+.campo input{
+    background-color: white;
+    border: #32b9cd solid 2px;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.card-login{
+    background: rgb(227, 227, 227);
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
